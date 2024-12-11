@@ -31,7 +31,7 @@ public class DictionarController {
 
     @RequestMapping(value = "info", method = RequestMethod.GET)
     public String info(){
-        return "The application is up...";
+        return "Aplicatia functioneaza";
     }
 
     @RequestMapping(value = "createDictionar", method = RequestMethod.POST)
